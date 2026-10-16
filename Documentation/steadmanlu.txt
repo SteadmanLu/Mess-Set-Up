@@ -1,0 +1,61 @@
+PROJECT DOCUMENTATION: WEEKLY STATUS LOG
+=========================================
+
+Project: MESS Sensors Hardware Project
+Author: Lucas
+Period Covered: September 18, 2026 - September 25, 2026
+
+
+OVERVIEW
+--------
+This document summarizes weekly progress on the MESS Sensors project,
+covering project planning, hardware onboarding, software setup, and
+initial hardware testing. The team consists of twelve members, organized
+into four sub-groups of three.
+
+
+WEEK ENDING 9/18/2026
+---------------------
+Summary:
+  Focused on project planning and background research while waiting on
+  hardware.
+
+Activities:
+  - Worked on the project proposal.
+  - Read the documentation for the MESS Sensors the team will be using.
+  - Reorganized the team: the group of twelve split into four groups of
+    three to allow more hands-on time with the hardware.
+
+Outcomes:
+  - Project proposal progressed.
+  - Familiarity with MESS Sensor specifications established.
+  - Team structure defined to maximize hardware access.
+
+
+WEEK ENDING 9/25/2026
+---------------------
+Summary:
+  Resolved software setup issues, then received and began setting up the
+  hardware.
+
+Activities:
+  - Discovered the previously configured software was not working
+    correctly. Since the hardware had not yet arrived, re-did the software
+    setup from scratch.
+  - Hardware arrived on Friday. Spent Friday setting it up.
+  - Ran through the starter guide to verify that everything was working.
+
+Issues / Blockers:
+  - Encountered problems getting the ESP controller working.
+
+Outcomes:
+  - Software environment reset and ready.
+  - Hardware received and initial setup completed.
+  - ESP controller issue remains open.
+
+
+OPEN ITEMS
+----------
+  - Resolve ESP controller problems.
+  - Complete verification of the full hardware setup via the starter guide.
+  - Continue project proposal and hands-on work within the 3-person groups.
