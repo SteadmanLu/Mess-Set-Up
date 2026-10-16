@@ -3,15 +3,17 @@ PROJECT DOCUMENTATION: WEEKLY STATUS LOG
 
 Project: MESS Sensors Hardware Project
 Author: Lucas
-Period Covered: September 18, 2026 - September 25, 2026
+Period Covered: September 18, 2026 - October 9, 2026
 
 
 OVERVIEW
 --------
 This document summarizes weekly progress on the MESS Sensors project,
-covering project planning, hardware onboarding, software setup, and
-initial hardware testing. The team consists of twelve members, organized
-into four sub-groups of three.
+covering project planning, hardware onboarding, software setup, hardware
+troubleshooting, and the move into specialized work groups. The team
+consists of twelve members, initially organized into four sub-groups of
+three, and later split into groups focused on different parts of the
+project. I am in the firmware group.
 
 
 WEEK ENDING 9/18/2026
@@ -51,11 +53,63 @@ Issues / Blockers:
 Outcomes:
   - Software environment reset and ready.
   - Hardware received and initial setup completed.
-  - ESP controller issue remains open.
+  - ESP controller issue remained open at the end of the week.
+
+
+WEEK ENDING 10/2/2026
+---------------------
+Summary:
+  Diagnosed and fixed the microcontroller issue, then began setting up the
+  Humidity, Temperature, and Pressure sensor.
+
+Activities:
+  - My smaller MESS group determined why the starter guide was not
+    working: drivers already installed on one of our computers were
+    causing the problem.
+  - Migrated to another computer and installed the correct drivers.
+  - Began setting up the Humidity, Temperature, and Pressure sensor.
+  - Connected the wires and started planning the remaining steps for the
+    next time the hardware is in front of us.
+
+Issues / Blockers:
+  - Incorrect pre-installed drivers on one computer (resolved).
+
+Outcomes:
+  - Microcontroller working (resolves the ESP controller issue from the
+    previous week).
+  - Humidity, Temperature, and Pressure sensor wired up; further setup
+    still to do.
+
+
+WEEK ENDING 10/9/2026
+---------------------
+Summary:
+  Finished the sensor familiarization period and moved into specialized
+  project groups.
+
+Activities:
+  - Tuesday was the last day to get familiar with the sensors. We had
+    trouble getting a reading, but were able to get the microcontroller
+    to communicate with the sensor.
+  - The team broke into groups, each aimed at solving a different part of
+    the project. I joined the firmware group.
+  - On Friday, read extensive documentation on how to get the sensors to
+    communicate with each other.
+  - Got a reading from one of the sensors.
+
+Issues / Blockers:
+  - Difficulty getting sensor readings during the familiarization period
+    (partially resolved: one sensor now returns a reading).
+
+Outcomes:
+  - Microcontroller-to-sensor communication established.
+  - First successful sensor reading obtained.
+  - Role defined: firmware group.
 
 
 OPEN ITEMS
 ----------
-  - Resolve ESP controller problems.
-  - Complete verification of the full hardware setup via the starter guide.
-  - Continue project proposal and hands-on work within the 3-person groups.
+  - Finish setup of the Humidity, Temperature, and Pressure sensor.
+  - Get readings from the remaining sensors.
+  - Work out sensor-to-sensor communication as part of the firmware group.
+  - Continue project proposal and group work.
